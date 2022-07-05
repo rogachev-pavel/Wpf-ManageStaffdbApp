@@ -71,8 +71,6 @@ namespace ManageStaffDBapp.ViewModel
                 PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
         }
 
-
-        public UpdateItemsInWindowVM update = new UpdateItemsInWindowVM();
         public string resultStr = "";
     }
 }

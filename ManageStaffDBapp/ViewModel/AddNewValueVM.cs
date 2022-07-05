@@ -12,6 +12,7 @@ namespace ManageStaffDBapp.ViewModel
 {
     internal class AddNewValueVM : DataManageVM
     {
+        private UpdateItemsInWindowVM update = new UpdateItemsInWindowVM();
 
 
         private readonly RelayCommand addNewDepartment;
